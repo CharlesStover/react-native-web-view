@@ -1,0 +1,45 @@
+{
+  "name": "react-native-web-view",
+  "version": "0.1.0",
+  "author": "Charles Stover <npmjs@charlesstover.com>",
+  "bugs": {
+    "url": "https://github.com/CharlesStover/react-native-web-view/issues"
+  },
+  "description": "An implementation of React Native's WebView that allows for window.postMessage on iOS devices.",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.56",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.56",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.56",
+    "@babel/preset-env": "^7.0.0-beta.56",
+    "@babel/preset-react": "^7.0.0-beta.56",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-loader": "^8.0.0-beta.4",
+    "react": "^16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0"
+  },
+  "homepage": "https://github.com/CharlesStover/react-native-web-view#readme",
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-native",
+    "reactnative"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "react": "^16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesStover/react-native-web-view.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "set NODE_ENV=development && webpack",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"No test.\""
+  }
+}
