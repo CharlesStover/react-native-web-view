@@ -44,7 +44,7 @@ class WebViewPostMessage extends React.PureComponent {
   handleRef = ref => {
     this.ref = ref;
 
-    // If the caller also wants this ref, pass it along to them as wlel.
+    // If the caller also wants this ref, pass it along to them as well.
     if (this.props.forwardedRef) {
       this.props.forwardedRef(ref);
     }
