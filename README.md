@@ -17,3 +17,9 @@ An implementation of React Native's WebView that allows for `window.postMessage`
 
 Instead of `import { WebView } from 'react-native'`, simply `import WebView from 'rn-webview'`.
 Then continue to use `<WebView />` just like you would the React Native implementation.
+
+## Sponsor 💗
+
+If you are a fan of this project, you may
+[become a sponsor](https://github.com/sponsors/CharlesStover)
+via GitHub's Sponsors Program.
